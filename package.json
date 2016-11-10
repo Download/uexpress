@@ -1,0 +1,24 @@
+{
+  "name": "uexpress",
+  "version": "0.1.0",
+  "description": "Microscopically small universal express implementation",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha src/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/download/uexpress.git"
+  },
+  "keywords": [
+    "universal",
+    "express",
+    "1kB"
+  ],
+  "author": "Stijn de Witt",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/download/uexpress/issues"
+  },
+  "homepage": "https://github.com/download/uexpress#readme"
+}
