@@ -4,7 +4,7 @@
   "description": "Microscopically small universal express implementation",
   "main": "server.js",
   "scripts": {
-    "test": "mocha src/**/*.spec.js"
+    "test": "mocha **/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/download/uexpress/issues"
   },
-  "homepage": "https://github.com/download/uexpress#readme"
+  "homepage": "https://github.com/download/uexpress#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
 }
