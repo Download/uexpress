@@ -1,11 +1,11 @@
 {
   "name": "uexpress",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Microscopically small universal express implementation",
   "main": "server.js",
   "browser": "browser.js",
   "scripts": {
-    "test": "mocha uexpress.spec.js"
+    "test": "mocha *.spec.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "uevents": "^1.0.0",
+    "uhistory": "^1.0.0",
     "uqs": "^1.0.0",
     "uroute": "^1.1.0"
   }

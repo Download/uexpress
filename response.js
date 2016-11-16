@@ -1,6 +1,6 @@
 var EventEmitter = require('uevents');
 
-var extend = require('../extend')
+var extend = require('./extend')
 
 module.exports = function response(app){
 	return extend(EventEmitter(), {
