@@ -1,8 +1,8 @@
 {
   "name": "uexpress",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Microscopically small universal express implementation",
-  "main": "server.js",
+  "main": "uexpress.js",
   "browser": "browser.js",
   "scripts": {
     "test": "mocha *.spec.js"
