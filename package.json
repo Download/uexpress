@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "uevents": "^1.0.0",
-    "uhistory": "^1.0.0",
+    "uhistory": "^1.0.2",
     "uqs": "^1.0.0",
     "uroute": "^1.1.0"
   }
