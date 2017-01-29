@@ -8,18 +8,19 @@ var response = require('./response')
 var extend = require('./extend')
 
 extend(uexpress.proto, {
-	listen: function(history) {
+	listen: function(ctx) {
 		var app = this
-		app.history = History(history)  		
-		app.history.on('change', function(){
-			app.call(app, request(app), response(app), function(err){
+		app.history = History(ctx || window)
+		var cookie = ctx && ctx.cookie !== undefined ? ctx.cookie : document.cookie
+		app.history.on('change', function(location, state){
+			app.call(app, request(app, location, state, cookie), response(app), function(err){
 				if (err) {
 					res.emit('close')
 					app.emit('error', err)
 				}
 			})
 		})
-		app.history.emit('change')
+		return app
 	}
 })
 

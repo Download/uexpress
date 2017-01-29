@@ -1,6 +1,6 @@
 {
   "name": "uexpress",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Microscopically small universal express implementation",
   "main": "uexpress.js",
   "browser": "browser.js",
@@ -24,11 +24,12 @@
   "homepage": "https://github.com/download/uexpress#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.1.2"
+    "mocha": "^3.2.0"
   },
   "dependencies": {
     "uevents": "^1.0.0",
-    "uhistory": "^1.0.0",
+    "uhistory": "^2.0.0-rc.2",
+    "ulocation": "^0.8.0",
     "uqs": "^1.0.0",
     "uroute": "^1.1.0"
   }

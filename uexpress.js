@@ -9,9 +9,8 @@ module.exports.hot = hot
 module.exports.extend = extend
 
 function uexpress() {
-	var app = extend(Application, uexpress.proto)
-	var app = EventEmitter(app).init()
-	return app;
+	var app = EventEmitter(extend(Application, uexpress.proto)).init()
+	return app
 
 	function Application(req, res, next){
 		return app.handle(req, res, next)
