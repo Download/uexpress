@@ -1,4 +1,6 @@
 # uexpress
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Download/uexpress.svg)](https://greenkeeper.io/)
 Microscopically small universal express-like router/dispatcher
 
 [![npm](https://img.shields.io/npm/v/uexpress.svg)](https://npmjs.com/package/uexpress)
